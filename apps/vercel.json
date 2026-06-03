@@ -1,5 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "framework": "vite",
+  "buildCommand": "bun run build",
+  "outputDirectory": "build/client",
+  "installCommand": "bun install"
 }
